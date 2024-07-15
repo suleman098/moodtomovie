@@ -1,0 +1,50 @@
+/* src/app/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255); /* Set background color to white */
+}
+
+#root, #__next {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-gray-100 {
+  background-color: #ffffff;
+}
+
+.bg-blue-500 {
+  background-color: #ffffff;
+}
+
+@layer utilities {
+  .border-3 {
+    border: 3px solid black;
+  }
+}

@@ -1,0 +1,15 @@
+/* src/app/components/moodbuttons.css */
+
+.table-auto {
+    border-collapse: collapse;
+  }
+  
+  .table-auto tr,
+  .table-auto td {
+    border: none;
+  }
+  
+  .table-auto td {
+    padding: 2px;
+  }
+  
